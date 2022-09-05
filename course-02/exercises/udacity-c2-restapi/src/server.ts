@@ -1,4 +1,6 @@
 require('dotenv').config();
+console.log(process.env.dbusername)
+
 import express from 'express';
 import { sequelize } from './sequelize';
 

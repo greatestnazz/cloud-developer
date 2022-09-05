@@ -1,12 +1,12 @@
 export const config = {
   "dev": {
-    "username": process.env.username,
+    "username": process.env.dbusername,
     "password": process.env.password,
-    "database": process.env.database,
+    "database": "postgres",
     "host": process.env.host,
-    "dialect": process.env.dialect,
-    "aws_region": process.env.aws_region,
-    "aws_profile": process.env.aws_profile,
+    "dialect": "postgres",
+    "aws_region": "us-east-1",
+    "aws_profile": "default",
     "aws_media_bucket": process.env.aws_media_bucket
   },
   "jwt": {
